@@ -1,0 +1,909 @@
+/* css of the background */
+body {
+  background-color: #EEEEEE;
+  font-family: Arial, sans-serif;
+  margin: 0px;
+  padding: 0px;
+
+}
+
+.site-logo {
+  background-color: #333; /* Εδώ θέτετε το επιθυμητό σκούρο χρώμα, μπορείτε να χρησιμοποιήσετε κώδικα χρώματος ή όνομα */
+  padding: 10px; /* Προσθέστε περιθώρια αν χρειάζεται */
+}
+
+.navbar-brand {
+  color: #fff; /* Χρώμα κειμένου για να είναι ορατό στο σκούρο υπόβαθρο */
+  text-decoration: none; /* Κανένα υπογεγραμμένο κείμενο */
+}
+
+.navbar-brand img {
+  margin-right: 5px; /* Προσαρμογή του περιθωρίου ανάμεσα στην εικόνα και το κείμενο (προαιρετικό) */
+}
+
+
+
+ /* Add your additional CSS styles here for the login/register section */
+ #login-register {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 10px;
+  border: 4px solid #0400ff;
+  border-radius: 50px;
+  margin: 10px;
+}
+
+#login-register a {
+  text-decoration: underline;
+  color: #333;
+  margin-right: 20px;
+  font-size: 18px;
+}
+
+#login-register a:hover {
+  color: #fff; 
+  background-color: rgb(1, 90, 138); 
+  border-radius: 5px; 
+}
+
+
+#login-register i {
+  margin-right: 5px;
+}
+
+
+/* @media screen and (max-width: 1100px) {  /* CSS FOR PC SCREEN -- PUT OUT COMMENTS FOR 1100px SCREEN  */
+
+
+
+            /* -------------------------- */
+
+
+
+            h1 {
+              font-size: 36px;
+              font-weight: bold;
+              line-height: 1.2;
+              margin-bottom: 20px;
+              text-align: center;
+              margin-top: 120px;
+              color: #1F6F8B;
+              
+            }
+
+
+            p {
+              color: #1F6F8B;
+              font-size: 16px;
+            }
+
+
+            /* ---------- CSS for my menu ----------  */ 
+
+
+
+
+
+
+            nav{
+                justify-content: space-between;
+                background-color: #0e007ecf;
+                box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+                padding: 20px 0px;
+                top: 0;
+                left: 0;
+                text-align: center;
+                
+
+            }
+
+
+            nav ul {
+              display: inline-flex;
+              margin: 0;
+              padding: 0;
+              list-style: none;
+            }
+
+            nav ul li {
+              margin: 0 20px;
+            }
+
+            nav ul li a {
+              color: #ffffff;
+              text-decoration: none;
+              font-weight: bold;
+              text-transform: uppercase;
+              transition: all 0.3s ease;
+              padding: 10px;
+            }
+
+            nav ul li a:hover {
+              color: #1D2D50;
+              background-color: #EEEEEE;
+            }
+
+
+
+              /* ---------- ----------  */ 
+
+              /* ---------- FOOTER ----------  */ 
+
+              footer {
+                background-color: #5430cd;
+                padding: 20px;
+              }
+              
+
+              
+              .cont {
+                max-width: 960px;
+                margin: 0 auto;
+              }
+              
+              .gr2 {
+                display: grid;
+                grid-template-columns: 1fr 1fr;
+                grid-gap: 20px;
+              }
+              
+              .col {
+                background-color: #fff;
+                border-radius: 8px;
+                margin-bottom: 20px;
+              }
+              
+              h4 {
+                font-size: 20px;
+                margin-bottom: 10px;
+                text-align: center;
+                text-decoration: underline;
+              }
+
+              .c{
+                text-align: center;
+                text-decoration:dotted;
+              }
+              
+              ul {
+                list-style: none;
+                padding: 0;
+                margin: 0;
+              }
+              
+              li {
+                margin-bottom: 10px;
+              }
+              
+              a {
+                color: #333;
+                text-decoration: none;
+              }
+              
+              .map-container {
+                position: relative;
+                width: 100%;
+                padding-bottom: 75%;
+              }
+              
+              .map-container iframe {
+                position: absolute;
+                top: 0;
+                left: 0;
+                width: 100%;
+                height: 100%;
+                border: 0;
+              }
+              
+              .f{
+                text-align: center;
+                color: aliceblue;
+              }
+
+              .fo{
+                background-color: cadetblue;
+              }
+              
+              /* ---------- ----------  */ 
+
+              /* ---------- CSS OF INTERFACE 1 ----------  */ 
+
+
+              section {
+                margin: 40px auto;
+                max-width: 800px;
+                text-align: center;
+              }
+
+              h2 {
+                font-size: 2em;
+                margin-bottom: 20px;
+                margin-top: 100px;
+                text-decoration: underline;
+                color: #607d8b;
+              }
+
+            
+
+              /* ---------- CSS OF who-we-are ----------  */ 
+              #who-we-are{
+                background-color: #e9e9e9;
+                padding: 10px 0;
+              }
+
+
+              /* ---------- CSS OF GALLERY ----------  */ 
+              .gallery {
+              display: grid;
+              grid-template-columns: repeat(4, 1fr);
+              grid-gap: 20px;
+              justify-content: center;
+              }
+
+              .gallery img {
+                width: 100%;
+                max-width: 100%;
+                height: auto;
+              }
+
+              /* ---------- CSS OF FORM ----------  */ 
+
+              form {
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+              
+              
+              }
+
+              label {
+                font-size: 1.2em;
+                margin-bottom: 10px;
+              }
+
+              input[type="text"],
+              input[type="email"],
+              input[type="submit"] {
+                font-size: 1.2em;
+                padding: 10px;
+                margin-bottom: 20px;
+                border-radius: 5px;
+                border: none;
+              }
+
+              input[type="submit"] {
+                background-color: #4CAF50;
+                color: white;
+                cursor: pointer;
+                margin-bottom: 10%;
+              }
+
+                
+
+            /* ---------- CSS OF PROGRAMMS ----------  */ 
+
+
+            .programs {
+              padding: 0px 0;
+              background-color: #ffffff00;
+            }
+
+            .container {
+              max-width: 1200px;
+              margin: 0 auto;
+              padding: 0 30px;
+              background-color: #e9e9e9;
+            }
+
+            h2 {
+              text-align: center;
+              margin-bottom: 50px;
+            }
+
+            .program-cards {
+              display: grid;
+              grid-template-columns: repeat(4, 1fr);
+              grid-gap: 30px;
+            }
+
+
+
+            .program-card {
+              text-align: center;
+            }
+
+            .program-card img {
+              max-width: 100%;
+            }
+
+            .program-card h3 {
+              margin-top: 20px;
+            }
+
+            .cta {
+              display: block;
+              max-width: 200px;
+              margin: 50px auto 0;
+              padding: 15px 30px;
+              border: none;
+              border-radius: 5px;
+              background-color: #14279bcf;
+              color: #fff;
+              font-size: 16px;
+              text-align: center;
+              text-decoration: none;
+            }
+
+            .cta:hover {
+              background-color: #0062cc;
+            }
+
+            /* ----------  ----------  */ 
+
+            .tips{
+              text-align: initial;
+              background-color: #e9e9e9;
+            }
+
+
+            /* -------------------- CSS OF INTERFACE 2 -------------------- */
+
+
+
+            /* Κοινός στιλιστικός κανόνας για την επίκεντρωση κειμένου */
+            .text-center {
+              text-align: center;
+            }
+
+            /*  κανόνες για την επικεφαλίδα */
+
+
+            /*  κανόνες για τα κύρια τμήματα */
+            section {
+              margin-bottom: 30px;
+            }
+
+            /*  κανόνες για το "ABOUT US" */
+
+
+
+
+            .about-us .column {
+              background-color: #f9f9f9;
+              box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+              padding: 20px;
+              border-radius: 4px;
+              
+              text-align: center;
+            }
+
+            #par{
+              margin-top: 5px;
+              text-decoration: underline;
+              text-align: center;
+            }
+
+            #para{
+              text-align: initial;
+            }
+
+            /*  κανόνες για τα grids */
+
+            /* GRID 1 */ 
+            .container {
+              max-width: 1200px;
+              margin: 0 auto;
+            }
+
+            .grid {
+              display: grid;
+              grid-template-columns: repeat(3, 1fr);
+              grid-gap: 20px;
+            }
+
+
+
+
+            /* GRID 2 */ 
+
+
+            .grid2 {
+              display: flex;
+              grid-template-columns: repeat(3, 1fr);
+              grid-gap: 20px;
+            }
+
+
+            /*  CSS OF CALCULATOR */ 
+
+
+
+            /* Στιλιστικοί κανόνες για το "Υπολογισμός Κόστους Φυσικού Αερίου" */
+            .cost-calculation {
+              background-color: #e9e9e9;
+              padding: 20px;
+            }
+
+            /* Στιλιστικοί κανόνες για το CTA κουμπί */
+            .cta-button {
+              display: inline-block;
+              padding: 10px 20px;
+              background-color: #337ab7;
+              color: #fff;
+              text-decoration: none;
+              border-radius: 4px;
+              font-weight: bold;
+            }
+
+            .cta-button:hover {
+              background-color: #23527c;
+            }
+
+
+
+
+
+
+            /* -------------------- CSS OF INTERFACE 4 - FORMA EPIKOINONIAS -------------------- */
+
+
+            /* Contact Details */
+
+            .contact-info {
+              text-align: center;
+              margin-top: 5%;
+            }
+
+            .contact-info p {
+              margin: 10px 0;
+            }
+
+            .contact-info strong {
+              font-weight: bold;
+            }
+
+            .contact-info a {
+              text-decoration: none;
+              color: #0074D9;
+            }
+
+            .contact-info a:hover {
+              text-decoration: underline;
+            }
+
+
+
+
+
+            /* FORMA EPIKOINONIAS */
+
+
+            h3 {
+
+              font-weight: bold;
+              line-height: 1.2;
+              margin-bottom: 20px;
+              text-align: center;
+              margin-top: 120px;
+              color: #1F6F8B;
+
+            }
+
+
+            .contact{
+            
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                padding-top: 40px;
+              
+              
+            }
+
+            form {
+
+              max-width: 400px;
+              margin: 0 auto;
+              margin-bottom: 20px;
+            }
+
+            label,
+            input,
+            select,
+            textarea {
+              display: block;
+              margin-bottom: 10px;
+            }
+
+            input,
+            select,
+            textarea {
+              width: 100%;
+              padding: 5px;
+            }
+
+            input[type="submit"] {
+              background-color: #4CAF50;
+              color: white;
+              padding: 10px 15px;
+              border: none;
+              cursor: pointer;
+            }
+
+            input[type="submit"]:hover {
+              background-color: #45a049;
+            }
+
+            input[type="submit"]:focus {
+              outline: none;
+            }
+
+            textarea {
+              resize: vertical;
+            }
+
+
+
+
+
+
+            /* INTERFACE 3 */
+
+            .parr{
+              text-align: center;
+              font-size: large;
+            }
+
+            .video-container {
+              position: relative;
+              overflow: hidden;
+              padding-top: 56.25%; 
+            }
+
+            .video-container iframe {
+              position: absolute;
+              top: 0;
+              left: 0;
+              width: 100%;
+              height: 100%;
+            }
+
+
+
+
+            /* ------------------------------ 
+
+            ---------------------------------
+
+                  MAKE MY SITE RESPONSIVE
+
+            -------------------------------
+            -------------------------------
+
+            */
+
+            .hamburger {
+              display: none; /* hide the hamburger menu by default */
+              cursor: pointer;
+            }
+
+            .hamburger-line {
+              width: 25px;
+              height: 3px;
+              background-color: #000;
+              margin: 5px 0;
+            }
+
+            .team .column {
+              background-color: #f9f9f9;
+              padding: 20px;
+              border-radius: 4px;
+              box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+              text-align: center;
+              }
+
+
+
+
+  
+ /* } end of code for pc */
+
+  
+  @media screen and (max-width: 1100px) and (min-width: 780px) { /* Κώδικας για tablet (1100px - 780px) */
+
+
+    
+
+            /* gallery 2 grid */
+
+            .gallery {
+              display: grid;
+              grid-template-columns: repeat(2, 1fr);
+              grid-gap: 30px;
+          }
+
+
+            /*footer */
+
+            .gr2 {
+              display: block;
+            }
+            
+            .col {
+              margin-bottom: 20px;
+            }
+
+          /* interface 2*/
+          .team .grid {
+            grid-template-columns: repeat(2, 1fr);
+          }
+
+        /* interface 3*/
+
+        th,
+        td {
+          padding: 5px;
+        }
+
+        .form-container {
+          padding: 10px;
+        }
+
+        input[type="number"] {
+          font-size: 14px;
+        }
+
+        .btn {
+          padding: 8px 16px;
+          font-size: 14px;
+        }
+
+        /* interface4 */
+
+        .contact-info,
+        .fo {
+          padding: 10px;
+        }
+      
+        .contact-info p,
+        .fo label {
+          font-size: 14px;
+        }
+      
+        .contact-info strong,
+        .fo input[type="text"],
+        .fo input[type="tel"],
+        .fo select,
+        .fo textarea,
+        .fo input[type="email"] {
+          font-size: 12px;
+        }
+      
+        .fo input[type="submit"] {
+          font-size: 12px;
+          padding: 6px 12px;
+        }       
+
+        /* interface 5 */
+        h1 {
+          font-size: 24px;
+        }
+      
+        .container {
+          margin: 20px;
+        }
+      
+        label {
+          font-size: 14px;
+        }
+      
+        input[type="text"],
+        input[type="password"],
+        button {
+          font-size: 14px;
+          padding: 8px;
+        }
+  }
+
+
+
+
+
+  @media screen and (max-width: 780px) { /* κώδικας για κινητά */
+
+    /* interface 1 and general menu*/
+
+    .menu ul {
+      display: none; /* hide the menu on screens smaller than 780px */
+    }
+  
+    .hamburger {
+      display: block; /* show the hamburger menu on screens smaller than 780px */
+      text-align: center;
+    }
+
+    .menu {
+        text-align: center;
+    }
+  
+    .menu.open ul {
+      display: block; /* show the menu when the hamburger menu is clicked */
+    }
+
+    h1{
+      margin-top: 200px;
+    }
+
+    .container {
+      grid-template-columns: 1fr; /* Change to a single column for screens smaller than 780px */
+    }
+  
+    .program-cards {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      grid-gap: 30px;
+    }
+
+    .gallery {
+      display: grid;
+      grid-template-columns: repeat(1, 1fr);
+      grid-gap: 30px;
+    }
+    
+    .gallery img {
+      width: 100%;
+      max-width: 100%;
+      height: auto;
+    }
+
+    .video-container {
+      padding-top: 75%; 
+    }
+
+    .gr2 {
+      display: block;
+    }
+    
+    .col {
+      margin-bottom: 20px;
+    }
+    
+    .map-container {
+      width: 100%;
+    }
+
+    /* interface 2*/
+
+    .about-us .grid {
+      grid-template-columns: repeat(1, 1fr);
+      display: grid;
+      grid-gap: 20px;
+      }
+
+      .about-us .column {
+        background-color: #f9f9f9;
+        box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+        padding: 20px;
+        border-radius: 4px;
+        
+        text-align: center;
+      }
+
+      .team .grid2 {
+        grid-template-columns: repeat(1, 1fr);
+        display: grid;
+        
+        grid-gap: 20px;
+      }
+    
+
+      .team .column {
+      background-color: #f9f9f9;
+      padding: 20px;
+      border-radius: 4px;
+      box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+      text-align: center;
+      }
+
+
+
+      /* interface 3*/
+
+      table {
+        font-size: 12px;
+      }
+
+      th,
+      td {
+        padding: 5px;
+        font-size: 10px;
+      }
+
+      h2 {
+        font-size: 16px;
+      }
+
+      h1 {
+        font-size: 16px;
+      }
+
+
+      .form-container {
+        padding: 5px;
+      }
+
+
+      .h2 {
+        font-size: 20px;
+      }
+
+      label {
+        font-size: 14px;
+      }
+
+      input[type="number"] {
+        font-size: 12px;
+      }
+
+      .btn {
+        padding: 6px 12px;
+        font-size: 12px;
+      }
+
+
+        /* interface4 */
+
+        .contact-info, h3{
+          margin-top:100px;
+        }
+
+        .contact-info,
+        .fo {
+          padding: 5px;
+        }
+      
+        .contact-info p,
+        .fo label {
+          font-size: 12px;
+        }
+      
+        .contact-info strong,
+        .fo input[type="text"],
+        .fo input[type="tel"],
+        .fo select,
+        .fo textarea,
+        .fo input[type="email"] {
+          font-size: 10px;
+        }
+      
+        .fo input[type="submit"] {
+          font-size: 10px;
+          padding: 4px 10px;
+        }
+        
+         /* interface 5 */
+         h1 {
+          font-size: 20px;
+        }
+      
+        .container {
+          margin: 10px;
+        }
+      
+        label {
+          font-size: 12px;
+        }
+      
+        input[type="text"],
+        input[type="password"],
+        button {
+          font-size: 12px;
+          padding: 6px;
+        }
+        
+    }
+
+  
+
+  
