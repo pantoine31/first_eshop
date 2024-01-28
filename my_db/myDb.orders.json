@@ -1,0 +1,44 @@
+[{
+  "_id": {
+    "$oid": "65a90108898c22013603644d"
+  },
+  "username": "antonhspap",
+  "productName": "blouza",
+  "productPrice": "2",
+  "address": "Διονυσίου Σολωμού 9η Πολυκατοικία",
+  "phone": "6986680496",
+  "fullname": "Antonis Papakonstantinou"
+},
+{
+  "_id": {
+    "$oid": "65a90178898c22013603644f"
+  },
+  "username": "antonhspap",
+  "productName": "blouza",
+  "productPrice": "2",
+  "address": "Διονυσίου Σολωμού 9η Πολυκατοικία",
+  "phone": "6986680496",
+  "fullname": "Antonis Papakonstantinou"
+},
+{
+  "_id": {
+    "$oid": "65a901d4898c220136036451"
+  },
+  "username": "antonhspap",
+  "productName": "blouza",
+  "productPrice": "2",
+  "address": "Διονυσίου Σολωμού 9η Πολυκατοικία",
+  "phone": "6986680496",
+  "fullname": "Antonis Papakonstantinou"
+},
+{
+  "_id": {
+    "$oid": "65a9028b898c220136036453"
+  },
+  "username": "Pantoine13",
+  "productName": "blouza",
+  "productPrice": "2",
+  "address": "11",
+  "phone": "22",
+  "fullname": "33"
+}]

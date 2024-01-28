@@ -1,0 +1,10 @@
+[{
+  "_id": {
+    "$oid": "65b382d81f939b7a4c07255b"
+  },
+  "username": "apap13",
+  "productName": "T-shirt T1",
+  "productPrice": "25",
+  "productDescription": "Top t-shirt for you!",
+  "productPhoto": "xrisima_stoixeia/productspr4.jpg"
+}]

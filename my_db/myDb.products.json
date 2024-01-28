@@ -1,0 +1,18 @@
+[{
+  "_id": {
+    "$oid": "65a6882ef2b09aa7890de1f6"
+  },
+  "name": "T-shirt T1",
+  "price": "25",
+  "description": "Top t-shirt for you!",
+  "photo": "xrisima_stoixeia/productspr4.jpg"
+},
+{
+  "_id": {
+    "$oid": "65b3a8771f939b7a4c072562"
+  },
+  "name": "best set for all time!",
+  "price": "20",
+  "description": "best set for you!",
+  "photo": "xrisima_stoixeia/productsproductspr3.jpg"
+}]
